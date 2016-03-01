@@ -1,0 +1,120 @@
+/* Custom CSS */
+
+h1 {
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+body {
+  font-family: Lato;
+  font-size: 12px;
+  /*margin-top: -100px;*/
+}
+h6 {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+h5 {
+  margin-bottom: 0;
+  font-weight: 500;
+  /*font-family: Raleway;*/
+  font-style: bold;
+}
+.title {
+  font-family: Raleway;
+}
+.work-exp .row {
+  height: 90px !important;
+}
+.four-line {
+  height: 80px !important;
+}
+.three-line {
+  height: 50px !important;
+}
+.two-line {
+  height: 20px;
+}
+.one-line {
+  height: 10px;
+}
+.heading2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.company {
+  font-size: 15px;
+  font-weight: bold;
+}
+.heading {
+  -webkit-print-color-adjust: exact;
+  color: rgb(100, 142, 246);
+}
+.job-title {
+  font-size: 15px;
+}
+.position {
+  font-size: 12.5px;
+}
+.location,
+.date {
+  font-style: italic;
+  font-size: 11px;
+}
+.projectlink {
+  font-size: 13px;
+}
+.techused {
+  font-style: italic;
+  color: #909090;
+  -webkit-print-color-adjust: exact;
+  margin-top: -5px;
+}
+.jsection {
+  margin-top: 0.3em;
+}
+li {
+  font-size: 13px;
+  list-style-type: circle;
+}
+.details {
+  padding-top: 0.3em;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding-bottom: 0.6em;
+}
+/*.contact{
+text-align:right;
+
+}*/
+.name-top {
+  margin-top: 20px;
+  margin-bottom: 10;
+}
+@media print {
+  a,
+  a:link:after,
+  a:visited:after {
+    content: "" !important;
+    color: #337ab7 !important;
+  }
+}
+.padding {
+  padding-top: 5px;
+}
+li {
+  margin-left: -35px;
+  list-style-type: disc;
+}
+hr {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.main-name {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E6E6E6;
+  margin-bottom: 10px;
+}
